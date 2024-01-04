@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam -- -j8 -l8
+[0.061s] [ 33%] [32m[1mLinking CXX executable rgbd[0m
+[0.061s] [ 33%] [32m[1mLinking CXX executable mono[0m
+[0.061s] [ 33%] [32m[1mLinking CXX executable stereo[0m
+[0.399s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[0.399s] /usr/bin/ld: CMakeFiles/mono.dir/src/monocular/mono.cpp.o: undefined reference to symbol 'PyErr_Format'
+[0.399s] /usr/bin/ld: /home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so.1.0: error adding symbols: DSO missing from command line
+[0.399s] collect2: error: ld returned 1 exit status
+[0.400s] make[2]: *** [CMakeFiles/mono.dir/build.make:212: mono] Error 1
+[0.401s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/mono.dir/all] Error 2
+[0.401s] make[1]: *** Waiting for unfinished jobs....
+[0.456s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[0.456s] /usr/bin/ld: CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: undefined reference to symbol 'PyErr_Format'
+[0.456s] /usr/bin/ld: /home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so.1.0: error adding symbols: DSO missing from command line
+[0.456s] collect2: error: ld returned 1 exit status
+[0.457s] make[2]: *** [CMakeFiles/rgbd.dir/build.make:213: rgbd] Error 1
+[0.457s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rgbd.dir/all] Error 2
+[0.469s] /usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+[0.469s] /usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+[0.469s] /usr/bin/ld: CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: undefined reference to symbol 'PyErr_Format'
+[0.469s] /usr/bin/ld: /home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so.1.0: error adding symbols: DSO missing from command line
+[0.469s] collect2: error: ld returned 1 exit status
+[0.470s] make[2]: *** [CMakeFiles/stereo.dir/build.make:213: stereo] Error 1
+[0.470s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/stereo.dir/all] Error 2
+[0.470s] make: *** [Makefile:141: all] Error 2
+[0.472s] Invoked command in '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam -- -j8 -l8

@@ -1,0 +1,59 @@
+ORB_SLAM2
+DEFAULT_MSG
+ORB_SLAM2_LIBRARY
+CMake Warning at CMakeLists.txt:34 (add_executable):
+  Cannot generate a safe runtime search path for target stereo because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:28 (add_executable):
+  Cannot generate a safe runtime search path for target rgbd because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:21 (add_executable):
+  Cannot generate a safe runtime search path for target mono because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+
+  Some of these libraries may not be found correctly.
+
+
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.2.4, needed by /home/yakki/DynaSLAM_LK/Thirdparty/DBoW2/lib/libDBoW2.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.2.4, needed by /home/yakki/DynaSLAM_LK/Thirdparty/DBoW2/lib/libDBoW2.so, may conflict with libopencv_core.so.3.4

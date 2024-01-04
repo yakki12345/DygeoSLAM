@@ -1,0 +1,41 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/yakki/anaconda3/envs/fastscnn2/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam
+[ 33%] [32m[1mLinking CXX executable rgbd[0m
+[ 33%] [32m[1mLinking CXX executable stereo[0m
+[ 55%] Built target mono
+[ 77%] Built target rgbd
+[100%] Built target stereo
+-- Install configuration: ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono
+-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono" to ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd
+-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd" to ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/stereo
+-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/stereo" to ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/package_run_dependencies/ros2_orbslam
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/parent_prefix_path/ros2_orbslam
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.sh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.sh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.bash
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.sh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.zsh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/packages/ros2_orbslam
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig.cmake
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig-version.cmake
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.xml

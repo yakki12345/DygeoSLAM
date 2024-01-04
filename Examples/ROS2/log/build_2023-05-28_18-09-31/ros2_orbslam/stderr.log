@@ -1,0 +1,21 @@
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: CMakeFiles/mono.dir/src/monocular/mono.cpp.o: undefined reference to symbol 'PyErr_Format'
+/usr/bin/ld: /home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so.1.0: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/mono.dir/build.make:212: mono] Error 1
+make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/mono.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: CMakeFiles/rgbd.dir/src/rgbd/rgbd.cpp.o: undefined reference to symbol 'PyErr_Format'
+/usr/bin/ld: /home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so.1.0: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/rgbd.dir/build.make:213: rgbd] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/rgbd.dir/all] Error 2
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: CMakeFiles/stereo.dir/src/stereo/stereo.cpp.o: undefined reference to symbol 'PyErr_Format'
+/usr/bin/ld: /home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so.1.0: error adding symbols: DSO missing from command line
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/stereo.dir/build.make:213: stereo] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/stereo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

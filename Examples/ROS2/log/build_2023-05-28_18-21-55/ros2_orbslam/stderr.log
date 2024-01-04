@@ -1,0 +1,10 @@
+ORB_SLAM2
+DEFAULT_MSG
+ORB_SLAM2_LIBRARY
+CMake Error at CMakeLists.txt:39 (target_link_libraries):
+  Cannot specify link libraries for target
+  "/home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so" which is not
+  built by this project.
+
+
+make: *** [Makefile:444: cmake_check_build_system] Error 1

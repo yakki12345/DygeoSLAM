@@ -1,0 +1,26 @@
+[0.012s] Invoking command in '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PS1_BACKUP=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PS1=(fastscnn2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam -- -j8 -l8
+[0.028s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.043s] -- Using PYTHON_EXECUTABLE: /home/yakki/anaconda3/envs/fastscnn2/bin/python3
+[0.155s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.180s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.182s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.305s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.413s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.500s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[0.512s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.514s] ORB_SLAM2
+[0.514s] DEFAULT_MSG
+[0.514s] ORB_SLAM2_LIBRARY
+[0.525s] CMake Error at CMakeLists.txt:39 (target_link_libraries):
+[0.525s]   Cannot specify link libraries for target
+[0.525s]   "/home/yakki/anaconda3/envs/fastscnn2/lib/libpython3.8.so" which is not
+[0.525s]   built by this project.
+[0.525s] 
+[0.525s] 
+[0.526s] -- Configuring incomplete, errors occurred!
+[0.526s] See also "/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam/CMakeFiles/CMakeOutput.log".
+[0.526s] See also "/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam/CMakeFiles/CMakeError.log".
+[0.530s] make: *** [Makefile:444: cmake_check_build_system] Error 1
+[0.531s] Invoked command in '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PS1_BACKUP=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PS1=(fastscnn2) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam -- -j8 -l8

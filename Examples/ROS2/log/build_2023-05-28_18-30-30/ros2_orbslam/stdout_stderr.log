@@ -1,0 +1,100 @@
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /home/yakki/anaconda3/envs/fastscnn2/bin/python3
+-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+ORB_SLAM2
+DEFAULT_MSG
+ORB_SLAM2_LIBRARY
+-- Configuring done
+CMake Warning at CMakeLists.txt:34 (add_executable):
+  Cannot generate a safe runtime search path for target stereo because files
+  in some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:28 (add_executable):
+  Cannot generate a safe runtime search path for target rgbd because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+
+  Some of these libraries may not be found correctly.
+
+
+CMake Warning at CMakeLists.txt:21 (add_executable):
+  Cannot generate a safe runtime search path for target mono because files in
+  some directories may conflict with libraries in implicit directories:
+
+    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /opt/ros/foxy/lib
+      /home/yakki/anaconda3/envs/fastscnn2/lib
+
+  Some of these libraries may not be found correctly.
+
+
+-- Generating done
+-- Build files have been written to: /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam
+[ 33%] [32m[1mLinking CXX executable rgbd[0m
+[ 33%] [32m[1mLinking CXX executable stereo[0m
+[ 55%] Built target mono
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.2.4, needed by /home/yakki/DynaSLAM_LK/Thirdparty/DBoW2/lib/libDBoW2.so, may conflict with libopencv_core.so.3.4
+[ 77%] Built target rgbd
+/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4
+/usr/bin/ld: warning: libopencv_core.so.2.4, needed by /home/yakki/DynaSLAM_LK/Thirdparty/DBoW2/lib/libDBoW2.so, may conflict with libopencv_core.so.3.4
+[100%] Built target stereo
+-- Install configuration: ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono
+-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono" to ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd
+-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd" to ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/stereo
+-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/stereo" to ""
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/package_run_dependencies/ros2_orbslam
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/parent_prefix_path/ros2_orbslam
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.sh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.sh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.bash
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.sh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.zsh
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.dsv
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/packages/ros2_orbslam
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig.cmake
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig-version.cmake
+-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.xml

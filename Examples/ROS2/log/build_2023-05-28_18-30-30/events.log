@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (ros2_orbslam) JobQueued: {'identifier': 'ros2_orbslam', 'dependencies': OrderedDict()}
+[0.000156] (ros2_orbslam) JobStarted: {'identifier': 'ros2_orbslam'}
+[0.008115] (ros2_orbslam) JobProgress: {'identifier': 'ros2_orbslam', 'progress': 'cmake'}
+[0.009342] (ros2_orbslam) JobProgress: {'identifier': 'ros2_orbslam', 'progress': 'build'}
+[0.009374] (ros2_orbslam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam', '--', '-j8', '-l8'], 'cwd': '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yakki'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1780'), ('ROS_PACKAGE_PATH', ':/home/yakki/orb-ws/src/ORB_SLAM2-master/ORB_SLAM2-master/Examples/ROS'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/opencv2.4/lib:/usr/local/cuda/lib64'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yakki'), ('DESKTOP_SESSION', 'ubuntu'), ('CONDA_PS1_BACKUP', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(fastscnn2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1605'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=25561bd2cbdd61456a304f8864720aa9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yakki'), ('JOURNAL_STREAM', '8:38890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/opencv2.4/lib/pkgconfig:/usr/local/opencv2.4/lib/pkgconfig::/usr/local/opencv2.4/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yakki'), ('TERM', 'xterm-256color'), ('CONDA_PATH_BACKUP', '/home/yakki/anaconda3/bin:/opt/ros/foxy/bin:/home/yakki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/Typora-linux-x64:/usr/local/cuda/bin'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yakki/anaconda3/envs/fastscnn2/bin:/home/yakki/anaconda3/bin:/opt/ros/foxy/bin:/home/yakki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/Typora-linux-x64:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/yakki-XPS-8930:@/tmp/.ICE-unix/1823,unix/yakki-XPS-8930:/tmp/.ICE-unix/1823'), ('INVOCATION_ID', '65f4486836314fd98c2542616784c019'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bb74fc6_0022_4df7_89a3_3ea210674c84'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.176'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'fastscnn2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=25561bd2cbdd61456a304f8864720aa9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/yakki/anaconda3/envs/fastscnn2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yakki/catkin/bin::/opt/ros/foxy')]), 'shell': False}
+[0.029719] (ros2_orbslam) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.045825] (ros2_orbslam) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /home/yakki/anaconda3/envs/fastscnn2/bin/python3\n'}
+[0.099441] (-) TimerEvent: {}
+[0.165583] (ros2_orbslam) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.190353] (ros2_orbslam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.192824] (ros2_orbslam) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199527] (-) TimerEvent: {}
+[0.280301] (ros2_orbslam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299623] (-) TimerEvent: {}
+[0.317166] (ros2_orbslam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.318148] (ros2_orbslam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399741] (-) TimerEvent: {}
+[0.426153] (ros2_orbslam) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.499876] (-) TimerEvent: {}
+[0.513236] (ros2_orbslam) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[0.526472] (ros2_orbslam) StdoutLine: {'line': b'-- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)\n'}
+[0.528864] (ros2_orbslam) StderrLine: {'line': b'ORB_SLAM2\n'}
+[0.529023] (ros2_orbslam) StderrLine: {'line': b'DEFAULT_MSG\n'}
+[0.529078] (ros2_orbslam) StderrLine: {'line': b'ORB_SLAM2_LIBRARY\n'}
+[0.590216] (ros2_orbslam) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.598143] (ros2_orbslam) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:34 (add_executable):\n'}
+[0.598232] (ros2_orbslam) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target stereo because files\n'}
+[0.598291] (ros2_orbslam) StderrLine: {'line': b'  in some directories may conflict with libraries in implicit directories:\n'}
+[0.598341] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.598390] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.598438] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.598484] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.598531] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.598578] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.598625] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.598671] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.598718] (ros2_orbslam) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[0.598764] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.598809] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.598856] (ros2_orbslam) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.598901] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.598946] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.599934] (-) TimerEvent: {}
+[0.606576] (ros2_orbslam) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:28 (add_executable):\n'}
+[0.606655] (ros2_orbslam) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target rgbd because files in\n'}
+[0.606709] (ros2_orbslam) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[0.606758] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.606806] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.606853] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.606899] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.606945] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.606991] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.607037] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.607083] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.607129] (ros2_orbslam) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[0.607175] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.607221] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.607266] (ros2_orbslam) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.607311] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.607356] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.614987] (ros2_orbslam) StderrLine: {'line': b'CMake Warning at CMakeLists.txt:21 (add_executable):\n'}
+[0.615065] (ros2_orbslam) StderrLine: {'line': b'  Cannot generate a safe runtime search path for target mono because files in\n'}
+[0.615119] (ros2_orbslam) StderrLine: {'line': b'  some directories may conflict with libraries in implicit directories:\n'}
+[0.615169] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.615216] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libpng16.so.16] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.615264] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.615309] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libz.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.615355] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.615405] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libtiff.so.5] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.615454] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.615500] (ros2_orbslam) StderrLine: {'line': b'    runtime library [libzstd.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:\n'}
+[0.615546] (ros2_orbslam) StderrLine: {'line': b'      /opt/ros/foxy/lib\n'}
+[0.615592] (ros2_orbslam) StderrLine: {'line': b'      /home/yakki/anaconda3/envs/fastscnn2/lib\n'}
+[0.615637] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.615682] (ros2_orbslam) StderrLine: {'line': b'  Some of these libraries may not be found correctly.\n'}
+[0.615727] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.615772] (ros2_orbslam) StderrLine: {'line': b'\n'}
+[0.619771] (ros2_orbslam) StdoutLine: {'line': b'-- Generating done\n'}
+[0.620930] (ros2_orbslam) StdoutLine: {'line': b'-- Build files have been written to: /home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam\n'}
+[0.660859] (ros2_orbslam) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable rgbd\x1b[0m\n'}
+[0.660998] (ros2_orbslam) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking CXX executable stereo\x1b[0m\n'}
+[0.661058] (ros2_orbslam) StdoutLine: {'line': b'[ 55%] Built target mono\n'}
+[0.700063] (-) TimerEvent: {}
+[0.800322] (-) TimerEvent: {}
+[0.900635] (-) TimerEvent: {}
+[1.000953] (-) TimerEvent: {}
+[1.101217] (-) TimerEvent: {}
+[1.201495] (-) TimerEvent: {}
+[1.301771] (-) TimerEvent: {}
+[1.347758] (ros2_orbslam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4\n'}
+[1.347946] (ros2_orbslam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.2.4, needed by /home/yakki/DynaSLAM_LK/Thirdparty/DBoW2/lib/libDBoW2.so, may conflict with libopencv_core.so.3.4\n'}
+[1.355821] (ros2_orbslam) StdoutLine: {'line': b'[ 77%] Built target rgbd\n'}
+[1.365931] (ros2_orbslam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.3.4\n'}
+[1.366059] (ros2_orbslam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.2, needed by /opt/ros/foxy/lib/libcv_bridge.so, may conflict with libopencv_core.so.3.4\n'}
+[1.366114] (ros2_orbslam) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.2.4, needed by /home/yakki/DynaSLAM_LK/Thirdparty/DBoW2/lib/libDBoW2.so, may conflict with libopencv_core.so.3.4\n'}
+[1.372741] (ros2_orbslam) StdoutLine: {'line': b'[100%] Built target stereo\n'}
+[1.380701] (ros2_orbslam) CommandEnded: {'returncode': 0}
+[1.399718] (ros2_orbslam) JobProgress: {'identifier': 'ros2_orbslam', 'progress': 'install'}
+[1.401901] (-) TimerEvent: {}
+[1.407686] (ros2_orbslam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam'], 'cwd': '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'yakki'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1780'), ('ROS_PACKAGE_PATH', ':/home/yakki/orb-ws/src/ORB_SLAM2-master/ORB_SLAM2-master/Examples/ROS'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/opencv2.4/lib:/usr/local/cuda/lib64'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yakki'), ('DESKTOP_SESSION', 'ubuntu'), ('CONDA_PS1_BACKUP', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PS1', '(fastscnn2) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1605'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=25561bd2cbdd61456a304f8864720aa9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yakki'), ('JOURNAL_STREAM', '8:38890'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/opencv2.4/lib/pkgconfig:/usr/local/opencv2.4/lib/pkgconfig::/usr/local/opencv2.4/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yakki'), ('TERM', 'xterm-256color'), ('CONDA_PATH_BACKUP', '/home/yakki/anaconda3/bin:/opt/ros/foxy/bin:/home/yakki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/Typora-linux-x64:/usr/local/cuda/bin'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/yakki/anaconda3/envs/fastscnn2/bin:/home/yakki/anaconda3/bin:/opt/ros/foxy/bin:/home/yakki/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/Typora-linux-x64:/usr/local/cuda/bin'), ('SESSION_MANAGER', 'local/yakki-XPS-8930:@/tmp/.ICE-unix/1823,unix/yakki-XPS-8930:/tmp/.ICE-unix/1823'), ('INVOCATION_ID', '65f4486836314fd98c2542616784c019'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0bb74fc6_0022_4df7_89a3_3ea210674c84'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.176'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'fastscnn2'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yakki/DynaSLAM_LK/Examples/ROS2/build/ros2_orbslam'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', ':/usr/local/cuda'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=25561bd2cbdd61456a304f8864720aa9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('CONDA_PREFIX', '/home/yakki/anaconda3/envs/fastscnn2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/yakki/catkin/bin::/opt/ros/foxy')]), 'shell': False}
+[1.413327] (ros2_orbslam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.413499] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono\n'}
+[1.414637] (ros2_orbslam) StdoutLine: {'line': b'-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/mono" to ""\n'}
+[1.414790] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd\n'}
+[1.416304] (ros2_orbslam) StdoutLine: {'line': b'-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/rgbd" to ""\n'}
+[1.416451] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/stereo\n'}
+[1.417935] (ros2_orbslam) StdoutLine: {'line': b'-- Set runtime path of "/home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/lib/ros2_orbslam/stereo" to ""\n'}
+[1.418061] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/package_run_dependencies/ros2_orbslam\n'}
+[1.418160] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/parent_prefix_path/ros2_orbslam\n'}
+[1.418239] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.sh\n'}
+[1.418366] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/ament_prefix_path.dsv\n'}
+[1.418455] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.sh\n'}
+[1.418530] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/environment/path.dsv\n'}
+[1.418584] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.bash\n'}
+[1.418665] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.sh\n'}
+[1.418725] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.zsh\n'}
+[1.418782] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/local_setup.dsv\n'}
+[1.418830] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.dsv\n'}
+[1.418892] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ament_index/resource_index/packages/ros2_orbslam\n'}
+[1.419026] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig.cmake\n'}
+[1.419276] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/cmake/ros2_orbslamConfig-version.cmake\n'}
+[1.419353] (ros2_orbslam) StdoutLine: {'line': b'-- Installing: /home/yakki/DynaSLAM_LK/Examples/ROS2/install/ros2_orbslam/share/ros2_orbslam/package.xml\n'}
+[1.421036] (ros2_orbslam) CommandEnded: {'returncode': 0}
+[1.460812] (ros2_orbslam) JobEnded: {'identifier': 'ros2_orbslam', 'rc': 0}
+[1.461295] (-) EventReactorShutdown: {}

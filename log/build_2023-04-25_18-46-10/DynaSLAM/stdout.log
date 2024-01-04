@@ -1,0 +1,66 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test COMPILER_SUPPORTS_CXX11
+-- Performing Test COMPILER_SUPPORTS_CXX11 - Success
+-- Performing Test COMPILER_SUPPORTS_CXX0X
+-- Performing Test COMPILER_SUPPORTS_CXX0X - Success
+-- Using flag -std=c++11.
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+-- Found Eigen3: /usr/include/eigen3 (Required is at least version "3.1.0") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/yakki/DynaSLAM_LK/build/DynaSLAM
+[35m[1mScanning dependencies of target DynaSLAM[0m
+[  6%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/LocalMapping.cc.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/System.cc.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/LoopClosing.cc.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Tracking.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/FrameDrawer.cc.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/ORBmatcher.cc.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Converter.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/ORBextractor.cc.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/MapPoint.cc.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/KeyFrame.cc.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Map.cc.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/MapDrawer.cc.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Optimizer.cc.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/PnPsolver.cc.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Frame.cc.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/KeyFrameDatabase.cc.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Sim3Solver.cc.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Initializer.cc.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Viewer.cc.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Conversion.cc.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/MaskNet.cc.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/DynaSLAM.dir/src/Geometry.cc.o[0m
+[ 74%] [32m[1mLinking CXX shared library ../../lib/libDynaSLAM.so[0m
+[ 74%] Built target DynaSLAM
+[35m[1mScanning dependencies of target rgbd_tum[0m
+[35m[1mScanning dependencies of target mono_tum[0m
+[35m[1mScanning dependencies of target mono_kitti[0m
+[35m[1mScanning dependencies of target stereo_kitti[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/mono_tum.dir/Examples/Monocular/mono_tum.cc.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/rgbd_tum.dir/Examples/RGB-D/rgbd_tum.cc.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/mono_kitti.dir/Examples/Monocular/mono_kitti.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/stereo_kitti.dir/Examples/Stereo/stereo_kitti.cc.o[0m
+[ 90%] [32m[1mLinking CXX executable ../../Examples/Monocular/mono_kitti[0m
+[ 93%] [32m[1mLinking CXX executable ../../Examples/Monocular/mono_tum[0m
+[ 96%] [32m[1mLinking CXX executable ../../Examples/Stereo/stereo_kitti[0m
+[100%] [32m[1mLinking CXX executable ../../Examples/RGB-D/rgbd_tum[0m
+[100%] Built target mono_kitti
+[100%] Built target mono_tum
+[100%] Built target stereo_kitti
+[100%] Built target rgbd_tum

@@ -1,0 +1,5 @@
+%YAML:1.0
+py_path: "/home/yakki/DynaSLAM_LK/src/fast_scnn"
+module_name: "demo"
+class_name: "Mask"
+get_dyn_seg: "GetDynSeg"
